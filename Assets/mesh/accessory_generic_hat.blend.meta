@@ -1,8 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream
 guid: 5b2c7ede2616749b5bc4baead621e09a
-timeCreated: 1484953673
-licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
@@ -15,17 +12,16 @@ ModelImporter:
     100012: arm_upper_r
     100014: char_accessory_turban
     100016: generic_char_armature
-    100018: generic_char_body
-    100020: head
-    100022: leg_hip_l
-    100024: leg_hip_r
-    100026: leg_lower_l
-    100028: leg_lower_r
-    100030: leg_upper_l
-    100032: leg_upper_r
-    100034: neck
-    100036: spine_lower
-    100038: spine_upper
+    100018: head
+    100020: leg_hip_l
+    100022: leg_hip_r
+    100024: leg_lower_l
+    100026: leg_lower_r
+    100028: leg_upper_l
+    100030: leg_upper_r
+    100032: neck
+    100034: spine_lower
+    100036: spine_upper
     400000: //RootNode
     400002: arm_lower_l
     400004: arm_lower_r
@@ -35,34 +31,25 @@ ModelImporter:
     400012: arm_upper_r
     400014: char_accessory_turban
     400016: generic_char_armature
-    400018: generic_char_body
-    400020: head
-    400022: leg_hip_l
-    400024: leg_hip_r
-    400026: leg_lower_l
-    400028: leg_lower_r
-    400030: leg_upper_l
-    400032: leg_upper_r
-    400034: neck
-    400036: spine_lower
-    400038: spine_upper
+    400018: head
+    400020: leg_hip_l
+    400022: leg_hip_r
+    400024: leg_lower_l
+    400026: leg_lower_r
+    400028: leg_upper_l
+    400030: leg_upper_r
+    400032: neck
+    400034: spine_lower
+    400036: spine_upper
     2300000: char_accessory_turban
     3300000: char_accessory_turban
-    4300000: generic_char_body
-    4300002: char_accessory_turban
+    4300000: char_accessory_turban
     7400000: Default Take
     7400002: passive_loop
     7400004: walking
+    7400006: walking_with_staff
+    7400008: passive_with_staff
     9500000: //RootNode
-    13700000: generic_char_body
-=======
-guid: b0f5f8bdcd5a57d4facfb572220c27b5
-timeCreated: 1484950164
-licenseType: Free
-ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName: {}
->>>>>>> Stashed changes
   materials:
     importMaterials: 1
     materialName: 0
@@ -106,13 +93,8 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
-<<<<<<< Updated upstream
-  importAnimation: 0
-  copyAvatar: 1
-=======
   importAnimation: 1
   copyAvatar: 0
->>>>>>> Stashed changes
   humanDescription:
     serializedVersion: 2
     human: []
@@ -127,17 +109,10 @@ ModelImporter:
     rootMotionBoneName: 
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
-<<<<<<< Updated upstream
     hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 0
-=======
-    hasExtraRoot: 0
-    skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
->>>>>>> Stashed changes
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

@@ -11,7 +11,8 @@ public class Movement : MonoBehaviour {
     public AudioClip kuolonhuuto;
     public AudioClip keraysaani;
 
-    bool RandomPoint(Vector3 center, float range, out Vector3 result) {
+
+   /* bool RandomPoint(Vector3 center, float range, out Vector3 result) {
         Vector3 randomPoint = center + Random.insideUnitSphere * range;
         UnityEngine.AI.NavMeshHit hit;
         if (UnityEngine.AI.NavMesh.SamplePosition(randomPoint, out hit, 1.0f, UnityEngine.AI.NavMesh.AllAreas))
@@ -21,11 +22,11 @@ public class Movement : MonoBehaviour {
         }
         result = Vector3.zero;
         return false;
-    }
+    } */
 
     void Start()
     {
-
+        duck = GameObject.FindGameObjectWithTag("Destination");
     }
 
 	void OnTriggerEnter(Collider other) {
@@ -49,14 +50,13 @@ public class Movement : MonoBehaviour {
     {
         UnityEngine.AI.NavMeshAgent ankka = GetComponent<UnityEngine.AI.NavMeshAgent>();
         Vector3 point;
-		if (RandomPoint (transform.position, range, out point) && seuraa == false) {
+	/*	if (RandomPoint (transform.position, range, out point) && seuraa == false) {
 			Debug.DrawRay (point, Vector3.up, Color.blue, 1.0f);
 			ankka.destination = point;
-		}
+	} */
 			if (seuraa == true) {
-			ankka.destination = duck.gameObject.transform.position - new Vector3(0f,0f,-1f);
-        
-		}
+			ankka.destination = duck.gameObject.transform.position - new Vector3(0f, 0f, -1f);
+        }
      }
     
 }

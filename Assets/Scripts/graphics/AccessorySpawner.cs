@@ -12,7 +12,8 @@ public class AccessorySpawner : MonoBehaviour {
 	// a nice slider to control how likely it is for no hat to spawn
 	[Range(0f,100f)] public float noHat = 30f;
 
-	void OnEnable(){
+    //OnEnable
+	void Start(){
 		ChooseHat ();
 	}
 

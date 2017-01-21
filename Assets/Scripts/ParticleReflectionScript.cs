@@ -15,6 +15,10 @@ public class ParticleReflectionScript : MonoBehaviour {
 	}
 
 	private void OnParticleCollision (GameObject GO) {
-		Debug.Log ("OSUI");
+        if (GO.tag != "Hand")
+        {
+            GO.SetActive(false);
+        }
+        
 	}
 }

@@ -12,8 +12,9 @@ public class WaterScript : MonoBehaviour {
 	public Vector3[] vertices;
 	public Vector3[] normals;
 
-	public GameObject player;
-	public float arith;
+	public GameObject player1;
+    public GameObject player2;
+    public float arith;
 	public Vector3 initialHeight;
 
 	void Start () {
@@ -41,12 +42,12 @@ public class WaterScript : MonoBehaviour {
 
 		while (i < vertices.Length) {
 			
-			if (Vector3.Distance (vertices [i], player.transform.position) < 2f) {
-				vertices [i] -= normals [i];
+			if (Vector3.Distance (vertices [i], player1.transform.position) < 2f || Vector3.Distance(vertices[i], player2.transform.position) < 2f) {
+				vertices [i] -= normals [i]*2;
 
 			} else if (vertices [i].y < initialHeight.y) {
 
-				vertices [i] += normals [i] / 100f;
+				vertices [i] += normals [i] / 300f;
 			}
 
 			i++;

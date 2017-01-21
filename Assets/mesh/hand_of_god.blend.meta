@@ -1,8 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream
 guid: 300738b6338c24b79a2a78d344f45933
-timeCreated: 1484953670
-licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
@@ -50,18 +47,10 @@ ModelImporter:
     7400000: Default Take
     7400002: hand_idle
     7400004: hand_pinch
-    7400006: hand_shoveling
-    7400008: hand_point
+    7400006: hand_point
+    7400008: hand_shoveling
     9500000: //RootNode
     13700000: Plane
-=======
-guid: 3fb2b3699ee5a7e4ca11814ff4c30c56
-timeCreated: 1484950164
-licenseType: Free
-ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName: {}
->>>>>>> Stashed changes
   materials:
     importMaterials: 1
     materialName: 0
@@ -82,7 +71,6 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-<<<<<<< Updated upstream
     clipAnimations:
     - serializedVersion: 16
       name: Default Take
@@ -424,9 +412,6 @@ ModelImporter:
       maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
-=======
-    clipAnimations: []
->>>>>>> Stashed changes
     isReadable: 1
   meshes:
     lODScreenPercentages: []

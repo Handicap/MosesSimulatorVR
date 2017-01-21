@@ -17,6 +17,8 @@ public class WaterScript : MonoBehaviour {
     public float arith;
 	public Vector3 initialHeight;
 
+    public float floodspeed = 1f;
+
 	void Start () {
 
 		mesh = GetComponent<MeshFilter> ().mesh;
@@ -47,7 +49,7 @@ public class WaterScript : MonoBehaviour {
 
 			} else if (vertices [i].y < initialHeight.y) {
 
-				vertices [i] += normals [i] / 300f;
+				vertices [i] += normals [i] / 300f * floodspeed;
 			}
 
 			i++;

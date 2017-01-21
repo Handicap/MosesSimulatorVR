@@ -31,8 +31,6 @@ public class WaterScript : MonoBehaviour {
 
 	}
 
-	private List<float> arithmetic;
-
 	void Update () {
 		
 		mesh = GetComponent<MeshFilter> ().mesh;

@@ -24,6 +24,7 @@ ModelImporter:
     100032: neck
     100034: spine_lower
     100036: spine_upper
+    100038: staff
     400000: arm_lower_l
     400002: arm_lower_r
     400004: arm_shoulder_l
@@ -43,12 +44,18 @@ ModelImporter:
     400032: neck
     400034: spine_lower
     400036: spine_upper
+    400038: staff
     4300000: generic_char_body
+    4300002: staff
     7400000: Default Take
     7400002: passive_loop
     7400004: walking
+    7400006: walking_with_staff
+    7400008: walking_with_staff0
+    7400010: passive_with_staff
     9500000: //RootNode
     13700000: generic_char_body
+    13700002: staff
   materials:
     importMaterials: 1
     materialName: 0
@@ -206,7 +213,7 @@ ModelImporter:
       name: walking
       takeName: walking
       firstFrame: 0
-      lastFrame: 38
+      lastFrame: 37
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -264,6 +271,142 @@ ModelImporter:
       - path: generic_char_armature/spine_lower/spine_upper/neck/head
         weight: 1
       - path: generic_char_body
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walking_with_staff0
+      takeName: walking_with_staff
+      firstFrame: 0
+      lastFrame: 37
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: generic_char_armature
+        weight: 1
+      - path: generic_char_armature/spine_lower
+        weight: 1
+      - path: generic_char_armature/spine_lower/leg_hip_l
+        weight: 1
+      - path: generic_char_armature/spine_lower/leg_hip_l/leg_upper_l
+        weight: 1
+      - path: generic_char_armature/spine_lower/leg_hip_l/leg_upper_l/leg_lower_l
+        weight: 1
+      - path: generic_char_armature/spine_lower/leg_hip_r
+        weight: 1
+      - path: generic_char_armature/spine_lower/leg_hip_r/leg_upper_r
+        weight: 1
+      - path: generic_char_armature/spine_lower/leg_hip_r/leg_upper_r/leg_lower_r
+        weight: 1
+      - path: generic_char_armature/spine_lower/spine_upper
+        weight: 1
+      - path: generic_char_armature/spine_lower/spine_upper/arm_shoulder_l
+        weight: 1
+      - path: generic_char_armature/spine_lower/spine_upper/arm_shoulder_l/arm_upper_l
+        weight: 1
+      - path: generic_char_armature/spine_lower/spine_upper/arm_shoulder_l/arm_upper_l/arm_lower_l
+        weight: 1
+      - path: generic_char_armature/spine_lower/spine_upper/arm_shoulder_r
+        weight: 1
+      - path: generic_char_armature/spine_lower/spine_upper/arm_shoulder_r/arm_upper_r
+        weight: 1
+      - path: generic_char_armature/spine_lower/spine_upper/arm_shoulder_r/arm_upper_r/arm_lower_r
+        weight: 1
+      - path: generic_char_armature/spine_lower/spine_upper/neck
+        weight: 1
+      - path: generic_char_armature/spine_lower/spine_upper/neck/head
+        weight: 1
+      - path: generic_char_body
+        weight: 1
+      - path: staff
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: passive_with_staff
+      takeName: passive_with_staff
+      firstFrame: 0
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: generic_char_armature
+        weight: 1
+      - path: generic_char_armature/spine_lower
+        weight: 1
+      - path: generic_char_armature/spine_lower/leg_hip_l
+        weight: 1
+      - path: generic_char_armature/spine_lower/leg_hip_l/leg_upper_l
+        weight: 1
+      - path: generic_char_armature/spine_lower/leg_hip_l/leg_upper_l/leg_lower_l
+        weight: 1
+      - path: generic_char_armature/spine_lower/leg_hip_r
+        weight: 1
+      - path: generic_char_armature/spine_lower/leg_hip_r/leg_upper_r
+        weight: 1
+      - path: generic_char_armature/spine_lower/leg_hip_r/leg_upper_r/leg_lower_r
+        weight: 1
+      - path: generic_char_armature/spine_lower/spine_upper
+        weight: 1
+      - path: generic_char_armature/spine_lower/spine_upper/arm_shoulder_l
+        weight: 1
+      - path: generic_char_armature/spine_lower/spine_upper/arm_shoulder_l/arm_upper_l
+        weight: 1
+      - path: generic_char_armature/spine_lower/spine_upper/arm_shoulder_l/arm_upper_l/arm_lower_l
+        weight: 1
+      - path: generic_char_armature/spine_lower/spine_upper/arm_shoulder_r
+        weight: 1
+      - path: generic_char_armature/spine_lower/spine_upper/arm_shoulder_r/arm_upper_r
+        weight: 1
+      - path: generic_char_armature/spine_lower/spine_upper/arm_shoulder_r/arm_upper_r/arm_lower_r
+        weight: 1
+      - path: generic_char_armature/spine_lower/spine_upper/neck
+        weight: 1
+      - path: generic_char_armature/spine_lower/spine_upper/neck/head
+        weight: 1
+      - path: generic_char_body
+        weight: 1
+      - path: staff
         weight: 1
       maskType: 3
       maskSource: {instanceID: 0}

@@ -15,6 +15,10 @@ public class WaterCollisionScript : MonoBehaviour {
 		water = GameObject.Find ("waterMesh").GetComponent<WaterScript> ();
 	}
 
+	void OnEnable () {
+		nearest = Vector3.zero;
+	}
+
 
 	void Update () {
 		vertices = water.vertices;

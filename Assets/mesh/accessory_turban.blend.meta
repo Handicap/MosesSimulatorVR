@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 guid: c70ba406d291440e39125e77911b0447
 timeCreated: 1484953678
 licenseType: Free
@@ -54,6 +55,14 @@ ModelImporter:
     7400004: walking
     9500000: //RootNode
     13700000: generic_char_body
+=======
+guid: 88f0476ac00037147b08729f860e57f6
+timeCreated: 1484950164
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName: {}
+>>>>>>> Stashed changes
   materials:
     importMaterials: 1
     materialName: 0
@@ -97,8 +106,13 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+<<<<<<< Updated upstream
   importAnimation: 0
   copyAvatar: 1
+=======
+  importAnimation: 1
+  copyAvatar: 0
+>>>>>>> Stashed changes
   humanDescription:
     serializedVersion: 2
     human: []
@@ -113,10 +127,17 @@ ModelImporter:
     rootMotionBoneName: 
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
+<<<<<<< Updated upstream
     hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 0
+=======
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+>>>>>>> Stashed changes
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
